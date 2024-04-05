@@ -1,10 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import './index.css'
+import { App } from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
+root.render(
+  <App></App>
+)
 
-const createButton = ({text}) => {
+
+/*const Button = ({text}) => {
     return (
       <button>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -17,8 +23,8 @@ const createButton = ({text}) => {
 
 root.render(
   <React.Fragment>
-    {createButton({ text: "Button 1" })}
-    {createButton({ text: "Button 2" })}
-    {createButton({ text: "Button 3" })}
+    <Button text="Button 1" />
+    <Button text="Button 2" />
+    <Button text="Button 3" />
   </React.Fragment>
-)
+)*/
